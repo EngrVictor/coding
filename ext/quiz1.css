@@ -1,0 +1,31 @@
+body {
+	background-color: black;
+}
+ p{
+ 	font-family: cursive;
+ 	color: lightseagreen;
+ }
+ footer {
+ 	background-color: #0f0;
+ }
+ label {
+ 	margin-right: 15px;
+ }
+ #creed input[type=Email]{
+ 	border-radius: 12px;
+ }
+ #creed input[type=password]{
+ 	border-radius: 12px;
+ }
+ pre {
+ 	color: white;
+ }
+ h1 {
+	 color:# white;
+ }
+ input[type=button]{
+ 	border-radius: 12px;
+ 	will-change: right;
+ 	animation-direction: alternate-reverse;
+ 	hover: color: red;
+ }

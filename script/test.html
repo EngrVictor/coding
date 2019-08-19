@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>css</title>
+	<style type="text/css">
+		
+     body {
+     	background-color: pink;
+     }
+
+     #para {
+     	color: red;
+      text-align: center;
+     }
+
+     .head {
+     	color: orange;
+     	font-size: 40px;
+     }
+
+     small {
+       font-size: 20px;
+     }
+
+	</style>
+</head>
+<body>
+   <p id="para">This my first webpage</p>
+
+   <h1>this a header <small>by engr victor</small></h1>
+    
+    <form>
+      <input type="text" name="username" id="ini">
+      <button id="take">Click me</button>
+    </form>
+
+  <script type="text/javascript">
+    var result = ['victor'];
+    document.getElementById('take').addEventListener('click', function(e) {
+      e.preventDefault();
+      var myvalue = document.getElementById('ini').value;
+      for (var i = result.length + 1; i >= 0; i++) {
+        result[i]
+      var result = [];
+      document.getElementById('ini').value = result.push[0];
+      document.getElementById('para').innerHTML = myvalue;
+      var mystyle = document.getElementById('para').style.color = 'blue';
+    }
+  });
+    console.log(result);
+  	
+    
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,115 @@
+/*
+width: 1000px
+# Columns : 12
+Column width: 65px
+Gutter : 20px
+
+*/
+body {
+	color: #fa3bbc;
+	background: lightseagreen url('car.jp') repeat;
+}
+
+a {
+	color: #4fb69f;
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 1.750em;
+	letter-spacing: -1.5px;
+}
+
+h2 {
+	font-size: 1.5em;
+	color: #567457;
+}
+
+.btn {
+	color: #fa3bbc;
+	background: #4fb69f right top;
+	padding: 15px 30px;
+	margin: 40px 0px;
+	border-radius: 100px; 
+	text-transform: uppercase;
+}
+
+.btn:hover {
+	background-color: #4cc4a7;
+}
+
+ul.nav{
+	margin: 120px 0 0 0;
+	list-style: none;
+	float: right;
+}
+
+ul.nav li {
+	float: left;
+	margin-right: 40px;
+}
+
+ul.nav li a{
+	color: #faf3bc
+}
+
+#intro {
+	margin: 50px 0 75px 0;
+}
+
+#new-soups img {
+	border: 8px solid #faf3bc;
+	margin: 0 0 20px 0;
+}
+
+#featured-soups img {
+	border: 8px solid #faf3bc;
+}
+
+#copyright {
+	border-top: 8px solid #2a0400;
+	padding: 10px 0px;
+	margin: 15px 0px;
+	text-align: center;
+}
+.grid_1 { width: 65px; }
+.grid_2 { width: 150px; }
+.grid_3 { width: 235px; }
+.grid_4 { width: 320px; }
+.grid_5 { width: 405px; }
+.grid_6 { width: 490px; }
+.grid_7 { width: 575px; }
+.grid_8 { width: 660px; }
+.grid_9 { width: 745px; }
+.grid_10 { width: 830px; }
+.grid_11 { width: 915px; }
+.grid_12 { width: 1000px; }
+
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12 {
+	margin: 0 20px 10px 0;
+	float: left;
+	display: block;
+}
+
+.alpha{margin-left: 0px}
+.omega{margin-right: 0px}
+
+.container{
+	width: 1000px;
+	margin: auto;
+}
+
+
+
+.clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}.clearfix:after{clear:both;content:' ';display:block;font-size:0;line-height:  }

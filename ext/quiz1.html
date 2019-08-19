@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>quiz</title>
+	<link rel="stylesheet" type="text/css" href="quiz1.css">
+</head>
+<body>
+<form name="myform">
+     <h1>Answer all questions in this field</h1>
+
+  <pre>Q1. what is the capital of Ebonyi?><br>
+	<input type="radio" name="q1" value="a"> Owerri<br>
+	<input type="radio" name="q1" value="b">Kaduna<br>
+	<input type="radio" name="q1" value="c">Abakaliki<br></pre><hr>	
+
+	<pre>Q2. ______ is a type of electrical component?</p><br>
+	<input type="radio" name="q2" value="a">Brush<br>
+	<input type="radio" name="q2" value="b">Capacitor<br>
+	<input type="radio" name="q2" value="c">Chuwenzelenzor<br></pre><hr>
+
+	<pre>Q3. what is the full meaning of HP?<br>
+	<input type="radio" name="q3" value="a">Hawlett parkard<br>
+	<input type="radio" name="q3" value="b">Hulk porche<br>
+	<input type="radio" name="q3" value="c">Highly portable<br></pre><hr>
+
+	<pre>Q4. the ______ aids the display and the speed of a computer system?<br>
+	<input type="radio" name="q4" value="a">RAM<br>
+	<input type="radio" name="q4" value="b">ROM<br>
+	<input type="radio" name="q4" value="c">EPROM<br></pre><hr>
+
+	<pre>Q5. each of the following are the types of computer processors ______?<br>
+	<input type="radio" name="q5" value="a">core <i>i3,i4,i5,i7</i><br>
+	<input type="radio" name="q5" value="b">core <i>i3,i5,i7,i8</i><br>
+	<input type="radio" name="q5" value="c">core <i>i3,i5,i7</i><br></pre><hr>
+</form>
+<div id="creed">
+	<input type="button" value="submit" onclick="check()" required="">
+	
+
+
+
+	<p>Please login with your Email to continue</p>
+	<label>Email</label><input type="Email" placeholder="Example@example.com" required><br><br>
+	<label>Password</label><input type="password" placeholder="please insert password" required><br><br>
+</div>
+
+	<script type="text/javascript">
+		function check(){
+			var q1=document.myform.q1.value;
+			var q2=document.myform.q2.value;
+			var q3=document.myform.q3.value;
+			var q4=document.myform.q4.value;
+			var q5=document.myform.q5.value;
+			var count=0
+
+			if(q1=="c"){
+				count++;
+			}
+			if(q2=="b"){
+				count++;
+			}
+			if(q3=="a"){
+				count++;
+            }
+            if(q4=="a"){
+				count++;
+            }
+            if(q5=="c"){
+				count++;
+            }
+            alert("Congratulation you got "+count+" marks go and collect one malt from baba");
+            
+
+		}
+	</script>
+<center><footer>&copy; 2019.Engr viktoh's project</footer></center>
+</body>
+</html>
